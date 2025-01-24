@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+        h1 {
+            background-color: aliceblue;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue;
+            
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            
+            margin: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin: auto;
+        }
+        div:hover {
+            background-color: red;
+            color: blueviolet;
+        }
+        div>h1 {
+            display: none;
+        }
+        div:hover > h1 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Exemplo de caixa box level</h1>
+        <p>Paragrafos tambem são exemplos de box levels, mas os <a href="https://youtube.com">links</a> são exemplos de caixas inline level</p>
+    </div>
+    <iframe src="caixa01.html" frameborder="0"></iframe>
+</body>
+</html>

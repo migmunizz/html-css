@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: grey;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(94, 105, 94);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px ;
+            box-shadow: 5px 3px 5px 1px black;
+        }
+        article {
+            background-color: lightgray;
+            padding: 10px
+        }
+        article > aside {
+            background-color: rgb(94, 105, 94);
+        }
+        footer {
+            background-color: black;
+            color:  white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+    </header>
+    
+    </nav>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, politica e pedagogia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ipsam consectetur facere provident quaerat voluptatem dicta modi fugiat? Nesciunt rem eos inventore nemo aut distinctio tempora voluptate beatae fuga possimus?</p>
+                <aside>
+                    <p>Artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div>
+        
+        <article>
+            <h2>Noticia sobre o brasil</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ipsam consectetur facere provident quaerat voluptatem dicta modi fugiat? Nesciunt rem eos inventore nemo aut distinctio tempora voluptate beatae fuga possimus?</p>
+        </article>
+    </div>
+</body>
+</html>
